@@ -9,6 +9,11 @@
     line-height: .5rem;
 }
 
+.footer-h3 {
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-around;

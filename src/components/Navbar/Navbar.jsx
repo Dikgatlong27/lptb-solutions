@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className="nav-larger">
                 <div className='logo'>
-                    <Link to='/'>
+                    <Link to='/' className='nav-logo'>
                         <h1>LPTB</h1>
                     </Link>
                 </div>

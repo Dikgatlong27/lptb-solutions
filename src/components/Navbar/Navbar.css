@@ -9,8 +9,11 @@
 .logo {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     cursor: pointer;
+}
+
+.nav-logo {
+    text-decoration: none;
 }
 
 .logo h1 {

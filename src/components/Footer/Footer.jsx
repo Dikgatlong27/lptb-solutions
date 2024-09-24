@@ -15,8 +15,10 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-content">
-            <div>
-                <h3>LPTB</h3>
+            <div className='footer-logo'>
+                <Link to='/' className='footer-h3'>
+                    <h3>LPTB</h3>
+                </Link>
             </div>
 
             <div className='footer-links'>
