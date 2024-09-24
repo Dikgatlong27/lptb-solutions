@@ -6,17 +6,48 @@
     color: #a5a5a5;
     text-align: center;
     padding: 2rem;
+    line-height: .5rem;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
+.footer-links {
+    font-size: 13px;
+    margin-left: 2rem;
+}
+
+.social-icons {
+    text-align: end;
+}
+
 .icons {
     display: flex;
-    gap: .7rem;
+    gap: 1rem;
     margin-top: 10px;
+}
+
+.fs-icon {
+    cursor: pointer;
+    color: #a5a5a5;
+}
+
+@media screen and (max-width: 733px) {
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        gap: .5rem;
+        margin-top: 10px;
+    }
+    
 }
