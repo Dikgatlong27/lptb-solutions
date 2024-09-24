@@ -37,8 +37,8 @@ const Navbar = () => {
 
 
                 {toggleMenu && (
-                    <div className='navlinks-small_overlay'>
-                        <AiFillCloseSquare className='hamburger-menu close' onClick={() => setToggleMenu(false)} />
+                    <div className='navlinks-small_overlay slide-bottom'>
+                        <AiFillCloseSquare className='hamburger-close' onClick={() => setToggleMenu(false)} />
                         <div className='logo-small'>
                             <Link onClick={() => setToggleMenu(false)} to='/'>
                                 <h1>LPTB</h1>
