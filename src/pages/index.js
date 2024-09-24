@@ -6,6 +6,9 @@ import Contact from "./Contact/Contact";
 import Login from "./Login/Login";
 import SignUp from "./Signup/SignUp";
 
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import Dashboard from "./PrivateRoute/Dashboard";
+
 export {
     Home,
     About,
@@ -13,5 +16,8 @@ export {
     WebDev,
     Contact,
     Login,
-    SignUp
+    SignUp,
+
+    PrivateRoute,
+    Dashboard
 }

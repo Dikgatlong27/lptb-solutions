@@ -1,5 +1,5 @@
 import { Navbar, Footer }  from './components';
-import { Home, About, Services, WebDev, Contact, Login, SignUp } from './pages';
+import { Home, About, Services, WebDev, Contact, Login, SignUp, PrivateRoute, Dashboard } from './pages';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -17,6 +17,14 @@ function App() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<SignUp />}/>
+
+        
+        <Route path='/dashboard' element={
+          <PrivateRoute>
+            <Dashboard />
+          </PrivateRoute>} 
+        />
+        
       </Routes>
       <Footer />
     </div>
