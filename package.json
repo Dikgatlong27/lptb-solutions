@@ -1,7 +1,7 @@
 {
   "name": "lptb-solutions_web-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@paypal/react-paypal-js": "^8.7.0",
     "@stripe/react-stripe-js": "^2.8.0",
