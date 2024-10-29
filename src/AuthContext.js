@@ -1,6 +1,6 @@
 // src/AuthContext.js
 import React, { useContext, useState, useEffect } from "react";
-import { auth } from "./firebase";// Import the new Firebase auth instance
+import { auth } from "./Firebase";
 import { onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth"; // Named imports
 
 // Create context

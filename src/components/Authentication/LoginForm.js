@@ -26,7 +26,7 @@ const LoginForm = () => {
     <div>
       <h2>Login</h2>
       {error && <p>{error}</p>}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} name="loginForm">
         <input
           type="email"
           placeholder="Email"
